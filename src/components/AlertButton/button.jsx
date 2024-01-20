@@ -2,11 +2,7 @@ import React from "react";
 
 const Button = ({label}) => {
 
-    const click = () => {
-        alert('A label desse botão é "Baixar CV"');
-    };
-
-    return <button onClick={() => click()}> {label} </button>;
+    return <button onClick={() => alert('A label desse botão é "Baixar CV"')}> {label} </button>;
 };
 
 export default Button;
