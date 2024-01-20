@@ -1,5 +1,5 @@
-import Texto from './components/text/text';
-import Button from './components/button/button';
+import Texto from './components/StyledText/text';
+import Button from './components/AlertButton/button';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
